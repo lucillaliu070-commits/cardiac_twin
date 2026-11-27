@@ -1,10 +1,5 @@
 # Cardiac Digital Twin: Personalized 4D Whole-Heart Mesh Reconstruction from Cine MRI
 
-Official implementation of **Personalized 4D Whole-Heart Mesh Reconstruction from Cine MRI via Multi-Scale Temporal Modeling and Differentiable Contour Rendering**.
-
-📄 Paper: [arXiv:2607.01952](https://arxiv.org/abs/2607.01952) ([PDF](https://arxiv.org/pdf/2607.01952))
-
-The source code will be released upon acceptance.
 
 ## Introduction
 
@@ -44,15 +39,4 @@ The camera is fixed, so the motion you see is the heart beating in scanner space
 
 The reconstructed mesh is cut by each acquired cine MRI plane: 2CH, 3CH, 4CH, and basal, mid-ventricular and apical short-axis slices. The resulting contours (bottom row) are compared over the whole cardiac cycle with the ground-truth segmentation of the same images (top row).
 
-## Citation
 
-If you find this work useful, please cite:
-
-```bibtex
-@article{liu2026personalized,
-  title   = {Personalized 4D Whole-Heart Mesh Reconstruction from Cine MRI via Multi-Scale Temporal Modeling and Differentiable Contour Rendering},
-  author  = {Liu, Xiaoyue and Cang, Dongcheng and Yuan, Xiaohan and Chan, Mark Y. Y. and Sia, Ching-Hui and Li, Lei},
-  journal = {arXiv preprint arXiv:2607.01952},
-  year    = {2026}
-}
-```
